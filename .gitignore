@@ -10,10 +10,10 @@
 *.userosscache
 *.sln.docstates
 obj/*
-Task9\Task9.csproj
-Task10\Task10.csproj
-Task12\Task12.csproj
-Task11\Task11.csproj
+Task9.csproj
+Task10.csproj
+Task12.csproj
+Task11.csproj
 .gitignore
 
 # User-specific files (MonoDevelop/Xamarin Studio)

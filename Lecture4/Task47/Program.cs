@@ -1,0 +1,35 @@
+﻿/* Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
+4; массив [6, 7, 19, 345, 3] -> нет
+-3; массив [6, 7, 19, 345, 3] -> да
+*/
+
+void FillArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+        array[i] = new Random().Next(-10, 11);
+}
+
+bool FindNum(int[] array, int num)
+{
+    for (int i = 0; i < array.Length; i++)
+        if (array[i] == num)
+            return true;
+
+    return false;
+}
+
+void PrintArray(int[] array)   // Цикл foreach обычно используется, когда нужно просто обойти все элементы коллекции без необходимости знать и использовать их индексы.
+{
+    foreach (int item in array)   // чтобы перебрать каждый элемент массива, выводится каждый элемент массива. Код выполняется для каждого элемента массива
+        Console.Write($"{item} ");
+    Console.WriteLine(); // добавляем пустую строку
+}
+
+int[] newArray = new int[10];
+Console.WriteLine("Введите число: ");
+int num = int.Parse(Console.ReadLine()!);
+
+
+FillArray(newArray);
+PrintArray(newArray);
+Console.WriteLine(FindNum(newArray, num));

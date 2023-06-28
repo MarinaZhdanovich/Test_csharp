@@ -2,6 +2,8 @@
 // 5*4!
 // 4*3!
 // 3*2!
+// 2*1!
+// 1=1
 
 int Factorial(int n)
 {
@@ -11,4 +13,4 @@ int Factorial(int n)
         return n * Factorial(n - 1);
 }
 
-Console.WriteLine(Factorial(3)); //1*2*3
+Console.WriteLine(Factorial(3)); // 1 * 2 * 3

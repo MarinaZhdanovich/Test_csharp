@@ -76,6 +76,8 @@ Task72.csproj
 Task73.csproj
 Task74.csproj
 Lesson1.csproj
+Selection sort.csproj
+Sorting Vibor.csproj
 .gitignore
 
 # User-specific files (MonoDevelop/Xamarin Studio)

@@ -34,7 +34,7 @@ void InputArray(int[] array)
 
 int[] SortVibor(int[] array) // [2 7 0 3 -5 12 8]
 {
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length - 1; i++) // последний элемент не с чем сравнивать поэтому - 1
     {
         int min = i; //предполагаемый минимум i = 0 -> 2
         for (int j = i + 1; j < array.Length; j++) // j = 1 -> 7

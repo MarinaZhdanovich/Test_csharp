@@ -15,6 +15,7 @@ Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine()!);
 int x = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Результат: {(1 + n) / 2.0 * n}");
+
 // 2. O(n)
 int result = 0; 
 for (int i = 1; i <= n; i++)
@@ -22,6 +23,7 @@ for (int i = 1; i <= n; i++)
 Console.WriteLine($"Результат: {result}");
 
 // 4. Загадали число 67.
+
 // -> 1
 // -> 100
 // от 1 до 100
@@ -38,6 +40,7 @@ Console.WriteLine($"Результат: {result}");
 
 
 // 5. O(n * log2(n))
+
 // [4, 21, -3, 56, 78, 5]
 // Опорный элемент = 4
 // [-3] + [4] + [21, 56, 78, 5]
@@ -51,6 +54,7 @@ Console.WriteLine($"Результат: {result}");
 
 
 // 3. O(n ^ 2)
+
 /* 
 [4, 21, -3, 56, 78, 5]
 4 < 21

@@ -79,6 +79,8 @@ Lesson1.csproj
 Selection sort.csproj
 Sorting Vibor.csproj
 Sorting Pysirk.csproj
+Sorting Quick.csproj
+Sorting_Quick.csproj
 .gitignore
 
 # User-specific files (MonoDevelop/Xamarin Studio)

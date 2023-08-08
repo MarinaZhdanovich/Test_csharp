@@ -82,6 +82,8 @@ Sorting Pysirk.csproj
 Sorting Quick.csproj
 Sorting_Quick.csproj
 Sorting_Quick_.csproj
+Client.csproj
+Server.csproj
 .gitignore
 
 # User-specific files (MonoDevelop/Xamarin Studio)

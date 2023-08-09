@@ -85,6 +85,7 @@ Sorting_Quick_.csproj
 Client.csproj
 Server.csproj
 Sorting Counting.csproj
+Sorting_Counting_.csproj
 .gitignore
 
 # User-specific files (MonoDevelop/Xamarin Studio)
